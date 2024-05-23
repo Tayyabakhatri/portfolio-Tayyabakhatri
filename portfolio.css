@@ -1,0 +1,81 @@
+.main-heading{
+    background-color: rgba(124, 124, 124, 0.11);
+}
+
+.main-heading p{
+font-size: 150px;
+font-weight: bolder;
+background-image: url(images/image.png);
+background-size: cover;
+background-position: center;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+@media (max-width:1024px) {
+    .main-heading p {
+font-size: 5rem;
+    }
+}
+@media (max-width:768px) {
+    .main-heading p {
+font-size: 3rem;
+    }
+}
+@media (max-width:480px) {
+    .main-heading p {
+font-size: 2.5rem;
+    }
+}
+
+.banner {
+    
+    background-image: url(images/Blue\ Neon\ Creative\ Futuristic\ Name\ Gaming\ YouTube\ Banner\ \(3\).png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:768px) {
+    .banner{
+        background-attachment: scroll;
+    }
+}
+/* .projects{
+    background-color: rgba(15, 14, 14, 0.174);
+} */
+.dropdown-color{
+    background-color:rgb(180, 187, 238);
+  
+}
+.dropdown-color li a{
+    color: black;
+    font-weight: normal;
+
+    transition: color 0.8s ease;
+}
+.dropdown-color li a:hover{
+    color: rgb(23, 11, 58);
+    font-weight: bold;
+    
+}
+.card-1{
+    border-image-source: linear-gradient(92.71deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.17) 100%);
+    border: 1px solid rgba(52, 33, 52, 0.5);
+    border-radius: 36px;
+}
+.card video{
+    width: auto;
+}
+.Go{
+    background-color: azure;
+}
+.projects{
+    background-image: url(images/image.png);
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
