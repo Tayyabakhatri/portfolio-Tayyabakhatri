@@ -1,6 +1,16 @@
 .main-heading{
     background-color: rgba(124, 124, 124, 0.11);
 }
+.project-heading p{
+    font-size: 150px;
+    font-weight: bolder;
+    background-image: url(images/binary-code-white-background-running-digits-concept-falling-numbers-light-wallpaper-matrix-backdrop-symbols-hacker-template-163915312.webp);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
 
 .main-heading p{
 font-size: 150px;
@@ -72,10 +82,81 @@ font-size: 2.5rem;
     background-color: azure;
 }
 .projects{
-    background-image: url(images/image.png);
+    background-image: url(images/astronomy-beautiful-constellations-813269.jpg);
    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.languages{
+    background-color:#f1f1f1;
+    
+}
+body {
+    
+    margin: 20px;
+}
+
+
+
+.skill-bar {
+    margin: 20px 0;
+}
+
+.skill {
+    display: inline-block;
+    width: 100px;
+}
+
+.bar {
+    display: inline-block;
+    width: 70%;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    transition: width 1s ease-in-out;
+}
+
+.html {
+    width: 90%;
+    background-color: #d7b1da;
+}
+
+.css {
+    width: 90%;
+    background-color: #758ef0;
+}
+
+.js {
+    width: 30%;
+    background-color: #e9de9c;
+    color: #000;
+}
+.bs {
+    width: 70%;
+    background-color: #a581e2;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
